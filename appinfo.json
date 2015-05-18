@@ -12,22 +12,25 @@
     "resources": {
         "media": [
             {
-                "file": "fonts/RobotoSlab-Regular.ttf",
-                "name": "ROBOTO_SLAB_20",
-                "type": "font"
-            },
-            {
                 "file": "images/mdx_dither_144x168.png",
                 "name": "IMAGE_BACKGROUND",
                 "type": "png"
+            },
+            {
+                "file": "fonts/RobotoSlab-Regular.ttf",
+                "name": "ROBOTO_SLAB_20",
+                "type": "font"
             }
         ]
     },
-    "sdkVersion": "2",
+    "sdkVersion": "3",
     "shortName": "MDX Watch",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "49bf9a34-c28b-4e53-a505-d46f4bf809cd",
-    "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }
